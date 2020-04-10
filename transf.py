@@ -15,10 +15,9 @@ def main():
 # -------------------------------------------    
 
     basepath    = "E:\\"
+    target      = "I:\\test\\"
 
     os.chdir(basepath)
-
-    target = "I:\\test\\"
 
     for root, _, files in os.walk(".", topdown=True):
 
